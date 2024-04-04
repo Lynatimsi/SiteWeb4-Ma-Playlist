@@ -1,0 +1,66 @@
+body {
+    background-color: #532a7f;
+    color: white;
+    font-family: "B612", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+h1 {
+    width: 100%;
+    padding-top: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+button {
+    margin-top: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 20%;
+    padding: 1em;
+    color: #532a7f;
+    font-size: 1.25rem;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+   
+}
+.container {
+    width: 90%;
+    max-width: 50rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+.mix {
+    padding-top: 0px;
+    padding-left: 3em;
+    padding-right: 3em;
+    list-style: none;
+    border: 3px solid white;
+}
+.mix li:before {
+    content: "# ";
+    padding-right: 0px;
+}
+.hide {
+    display: none;
+}
+.song {
+    padding: 0.5rem;
+    margin-top: 0.75rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.25rem;
+  }
+  
+  .song-number {
+    padding: 0.45rem;
+    margin-right: 0.25rem;
+    background-color: #9634ff;
+    display: inline-block;
+    
+  }
